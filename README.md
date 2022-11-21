@@ -20,3 +20,14 @@ In order to be able to run the my computational artifact run this command:
 In order to run the other program run:
 
 `python Artifact_feasibility.py`
+
+
+## Abstract
+
+* NBA front office can't effectively sign players to contracts that the players are worthy of.
+* Need to be able to find a way to correctly predict how much a player is worth.
+* Use NBA PyAnalysis in order to find a players true worth.
+* Use a key statistic VORP(Value over replacement player) in order to find the players worth.
+* Need to use machine learning in order find the players true worth.
+* Have to train the machine learning algorthim wiht past seasons stats and contracts.
+* In order to create the required dataframe used a python tool call `pandas`.
