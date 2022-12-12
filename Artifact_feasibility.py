@@ -34,6 +34,15 @@ Y = df['2021/22']
 X = df['VORP']
 output1.to_csv('2021-22VORP.csv')
 
+# Plot outputs
+plt.scatter(X, Y,  color='black')
+plt.title('Graph')
+plt.xlabel('VORP')
+plt.ylabel('Salaries')
+plt.xticks(())
+plt.yticks(())
+plt.show()
+
 
 #X=X.shape(len(X),1)
 #Y=Y.shape(len(Y),1)
@@ -47,15 +56,6 @@ Y_train = Y[:-250]
 Y_test = Y[-250:]
 
 regr = linear_model.LinearRegression()
-
-# Plot outputs
-plt.scatter(X, Y,  color='black')
-plt.title('Graph')
-plt.xlabel('VORP')
-plt.ylabel('Salaries')
-plt.xticks(())
-plt.yticks(())
-plt.show()
 
 
 # displaying result
