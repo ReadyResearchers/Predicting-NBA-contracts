@@ -9,6 +9,11 @@ I will be using the Pandas library to help me with my predictive analysis. I wil
 
 ## Installation
 
+### Use githubtocolab
+
+Click [this link](https://colab.research.google.com/github/ReadyResearchers/Predicting-NBA-contracts/blob/main/src/JupiterNotebook.ipynb) and press the
+'play' button in order to run the program.
+
 In order to be able to run this program. You need to follow the installation process that is outlined below.
 
 `pip install pandas`
